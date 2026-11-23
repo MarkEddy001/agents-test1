@@ -383,7 +383,7 @@ def _aggregate_one(agg: str):
 
 
 agent = agents.Agent(
-    model="mistral-large-4",
+    model="mistral-medium-latest",
     name="data-analyst",
     instructions=(
         "You are a conversational data analyst. The user points you at a CSV file in "
